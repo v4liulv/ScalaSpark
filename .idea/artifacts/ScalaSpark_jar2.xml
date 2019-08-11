@@ -1,0 +1,18 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="ScalaSpark:jar2">
+    <output-path>$PROJECT_DIR$/out/artifacts/ScalaSpark_jar2</output-path>
+    <root id="archive" name="ScalaSpark.jar">
+      <element id="module-output" name="ScalaSpark" />
+      <element id="extracted-dir" path="D:/gongji/scala/lib/scala-actors-migration.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gongji/scala/lib/scala-actors.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gongji/scala/lib/scala-library.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gongji/scala/lib/scala-reflect.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="D:/gongji/scala/lib/scala-swing.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/spark1.6-lib/lib/spark-assembly-1.6.0-hadoop2.6.0.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/sparkscala/lib/scala-compiler.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/sparkscala/lib/scala-actors.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="$PROJECT_DIR$/sparkscala/lib/scala-actors-migration.jar" path-in-jar="/" />
+      <element id="extracted-dir" path="E:/spark1.6-lib/lib/spark-1.6.0-yarn-shuffle.jar" path-in-jar="/" />
+    </root>
+  </artifact>
+</component>

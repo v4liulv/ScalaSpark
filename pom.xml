@@ -1,0 +1,423 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://maven.apache.org/POM/4.0.0"
+         xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+
+    <groupId>groupId</groupId>
+    <artifactId>ScalaSpark</artifactId>
+    <version>1.0-SNAPSHOT</version>
+
+    <properties>
+        <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
+        <jdk-version>1.8</jdk-version>
+        <maven.version>3.3.9</maven.version>
+        <github.global.server>github</github.global.server>
+
+
+        <scala.binary.version>2.10</scala.binary.version>
+        <scala.version>2.10.4</scala.version>
+        <spark-scala-version>2.10</spark-scala-version> <!-- spark-scala -->
+        <spark.version>1.6.0-cdh5.7.1</spark.version>
+
+        <maven-shade-version>2.3</maven-shade-version>
+        <commons.io.version>2.4</commons.io.version>
+        <commons.lang3.version>3.3.2</commons.lang3.version>
+        <guava.version>r03</guava.version>
+    </properties>
+
+    <repositories>
+        <repository>
+            <id>alibaba-opensource</id>
+            <name>local private alibaba-opensource</name>
+            <url>http://maven.aliyun.com/nexus/content/groups/public/</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <!-- liuvlv github -->
+        <repository>
+            <id>maven-repo-master</id>
+            <url>https://raw.githubusercontent.com/v4liulv/maven-repo/master</url>
+            <releases>
+                <enabled>true</enabled>
+            </releases>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <!-- cloudera CHD版本库 -->
+        <repository>
+            <id>cloudera release</id>
+            <url>https://repository.cloudera.com/artifactory/cloudera-repos/</url>
+        </repository>
+        <!-- phonix 版本库-->
+        <repository>
+            <id>apache release</id>
+            <url>https://repository.apache.org/content/repositories/releases/</url>
+        </repository>
+        <!-- spring 版本库 -->
+        <repository>
+            <id>spring-libs-snapshot</id>
+            <name>Spring Snapshots</name>
+            <url>https://repo.spring.io/libs-snapshot</url>
+            <snapshots>
+                <enabled>true</enabled>
+            </snapshots>
+        </repository>
+        <!-- hdp 版本库-->
+        <repository>
+            <id>hdp release</id>
+            <url>http://repo.hortonworks.com/content/repositories/releases/</url>
+        </repository>
+    </repositories>
+
+    <dependencies>
+        <!-- 引入对scala SDK的依赖-->
+       <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-library</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <!-- scala-actors -->
+      <dependency>
+            <groupId>org.scala-lang</groupId>
+            <artifactId>scala-actors</artifactId>
+            <version>${scala.version}</version>
+        </dependency>
+        <!-- spark 依赖开始 -->
+       <dependency>
+            <groupId>org.jetbrains</groupId>
+            <artifactId>annotations</artifactId>
+            <version>RELEASE</version>
+        </dependency>
+        <!-- 解决Spark应用程序读取HDFS文件，引入的HBase和Hadoop的Jar包冲突问题 -->
+        <dependency>
+            <groupId>commons-io</groupId>
+            <artifactId>commons-io</artifactId>
+            <version>${commons.io.version}</version>
+        </dependency>
+        <!-- spark core -->
+      <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-core_${spark-scala-version}</artifactId>
+            <version>${spark.version}</version>
+            <exclusions>
+                <exclusion>
+                    <groupId>org.slf4j</groupId>
+                    <artifactId>slf4j-api</artifactId>
+                </exclusion>
+                <exclusion>
+                    <groupId>org.scala-lang</groupId>
+                    <artifactId>scala-reflect</artifactId>
+                </exclusion>
+            </exclusions>
+        </dependency>
+        <!-- spark sql -->
+        <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-sql_${spark-scala-version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        <!-- spark hive -->
+     <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-hive_${spark-scala-version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+        <!-- spark streaming -->
+    <!--    <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-streaming_${spark-scala-version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>-->
+    <!-- spark yarn -->
+       <dependency>
+            <groupId>org.apache.spark</groupId>
+            <artifactId>spark-yarn_${spark-scala-version}</artifactId>
+            <version>${spark.version}</version>
+        </dependency>
+
+      <!--  <dependency>
+            <groupId>com.google.guava</groupId>
+            <artifactId>guava-io</artifactId>
+            <version>${guava.version}</version>
+        </dependency>-->
+
+    </dependencies>
+
+
+    <build>
+        <finalName>scala-spark</finalName>
+        <sourceDirectory>sparkcore/src/main/java</sourceDirectory>
+       <!-- <testSourceDirectory>sparkcore/src/test/java</testSourceDirectory>-->
+
+        <!--maven打包时如何把包下面的非java文件配置文件也包含，通过resources-resource下配置directory和includes实现 -->
+        <resources>
+            <resource>
+                <directory>src/main/java</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+            <resource>
+                <directory>src/main/resources-framework</directory>
+                <includes>
+                    <include>**/*.*</include>
+                </includes>
+            </resource>
+        </resources>
+
+        <!-- 公共插件，全部子项目都继承 -->
+        <plugins>
+            <!-- Maven github 可选 -->
+            <plugin>
+                <groupId>com.github.github</groupId>
+                <artifactId>site-maven-plugin</artifactId>
+                <version>0.12</version>
+                <configuration>
+                    <message>Maven artifacts for ${project.version}</message>
+                    <outputDirectory>${project.build.directory}/mvn-repo</outputDirectory>
+                    <branch>refs/heads/master</branch>
+                    <includes>
+                        <include>**</include>
+                    </includes>
+                    <!-- <path>com.sinobest.kshfx</path>-->
+                    <!-- 是否与当前树合并，或者完全替换提交指向的树, 默认为false-->
+                    <merge>true</merge>
+                    <!-- 是否强制进行一个ref更新，默认情况下只会快速前进 -->
+                    <force>true</force>
+                    <!-- 在该站点的根目录下是否总是创造一个.nojekyll文件将。如果您的站点包含任何以下划线开头的文件夹，那么该设置应该启用。-->
+                    <noJekyll>true</noJekyll>
+                    <!-- 对应github上创建的仓库名称 name -->
+                    <repositoryName>maven-repo</repositoryName>
+                    <!-- github 仓库所有者 -->
+                    <repositoryOwner>v4liulv</repositoryOwner>
+                </configuration>
+                <executions>
+                    <execution>
+                        <goals>
+                            <goal>site</goal>
+                        </goals>
+                        <phase>deploy</phase>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Maven Enforcer Plugin 定义一些必须遵守的配置 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-enforcer-plugin</artifactId>
+                <version>1.4.1</version>
+                <executions>
+                    <execution>
+                        <id>enforce-versions</id>
+                        <goals>
+                            <goal>enforce</goal>
+                        </goals>
+                        <configuration>
+                            <rules>
+                                <requireMavenVersion>
+                                    <version>${maven.version}</version>
+                                </requireMavenVersion>
+                                <requireJavaVersion>
+                                    <version>${java.version}</version>
+                                </requireJavaVersion>
+                            </rules>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Maven Java 编译-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-compiler-plugin</artifactId>
+                <configuration>
+                    <encoding>UTF-8</encoding>
+                    <source>${jdk-version}</source>
+                    <target>${jdk-version}</target>
+                </configuration>
+            </plugin>
+            <!-- Maven 生成sources源码包的插件 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-source-plugin</artifactId>
+                <version>3.0.1</version>
+                <configuration>
+                    <attach>true</attach>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>create-source-jar</id>
+                        <goals>
+                            <goal>jar-no-fork</goal>
+                            <goal>test-jar-no-fork</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>
+            <!-- Maven 生成javadoc文档包的插件，解决报错添加-Xdoclint:none-->
+            <!--<plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-javadoc-plugin</artifactId>
+                <version>2.10.2</version>
+                <configuration>
+                    <aggregate>true</aggregate>
+                    <additionalparam>-Xdoclint:none</additionalparam>
+                </configuration>
+                <executions>
+                    <execution>
+                        <id>attach-javadocs</id>
+                        <goals>
+                            <goal>jar</goal>
+                        </goals>
+                    </execution>
+                </executions>
+            </plugin>-->
+            <!-- Maven install 将项目输出构件安装到本地仓库  -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-install-plugin</artifactId>
+                <version>2.5.2</version>
+            </plugin>
+            <!-- mvn clean命令清除target里的内容的同时，也清除work,checkpoint,lib_managed等下的相应目录 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-clean-plugin</artifactId>
+                <version>3.0.0</version>
+                <configuration>
+                    <filesets>
+                        <fileset>
+                            <directory>work</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>checkpoint</directory>
+                        </fileset>
+                        <fileset>
+                            <directory>lib_managed</directory>
+                        </fileset>
+                    </filesets>
+                </configuration>
+            </plugin>
+            <!-- 解决打包@Test测试用例报错,跳过测试用例spikTests设置为true -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-surefire-plugin</artifactId>
+                <version>2.7</version>
+                <configuration>
+                    <skipTests>true</skipTests>
+                </configuration>
+            </plugin>
+
+            <!-- （可选，根据github是否选择而选择）Maven deploy 结合上面的Maven-github将本地工程的部署到远程Maven Github仓库-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-deploy-plugin</artifactId>
+                <version>2.8.2</version>
+                <configuration>
+                    <altDeploymentRepository>internal.repo::default::file://${project.build.directory}/mvn-repo
+                    </altDeploymentRepository>
+                </configuration>
+            </plugin>
+
+            <!-- build-helper-maven-plugin插件来支持自定义的项目目录结构(相对于Maven默认目录结构来说)。
+             如果选择shade打全量包，必须去掉此项 -->
+            <plugin>
+                <groupId>org.codehaus.mojo</groupId>
+                <artifactId>build-helper-maven-plugin</artifactId>
+                <version>3.0.0</version>
+            </plugin>
+            <!-- maven-jar-plugin 默认的打包插件-->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <version>3.0.2</version>
+                <configuration>
+                    <archive>
+                        <manifest>
+                            <addClasspath>true</addClasspath>
+                            <classpathPrefix>lib/</classpathPrefix>
+                        </manifest>
+                    </archive>
+                </configuration>
+            </plugin>
+            <!-- Maven 生成全部的依赖包到target\lib目录下,
+            如果选择shade打全量包，必须去掉此项 -->
+            <!-- ${project.build.directory}为Maven内置变量，缺省为target -->
+            <!-- excludeTransitive表示是否不包含间接依赖的包  -->
+            <!-- stripVersion表示是否复制的jar文件去掉版本信息 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+                <version>3.0.0</version>
+                <executions>
+                    <execution>
+                        <id>copy-dependencies</id>
+                        <phase>prepare-package</phase>
+                        <goals>
+                            <goal>copy-dependencies</goal>
+                        </goals>
+                        <configuration>
+                            <!--<outputDirectory>apps/libs</outputDirectory>-->
+                            <outputDirectory>${project.build.directory}/lib</outputDirectory>
+                            <excludeTransitive>false</excludeTransitive>
+                            <stripVersion>false</stripVersion>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+            <!-- Maven 全量打包包含依赖Jar，需要注释掉maven-dependency-plugin和maven-jar-plugin的方式 -->
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-shade-plugin</artifactId>
+                <version>2.4.3</version>
+                <executions>
+                    <execution>
+                        <phase>package</phase>
+                        <goals>
+                            <goal>shade</goal>
+                        </goals>
+                        <configuration>
+                            <filters>
+                                <filter>
+                                    <artifact>*:*</artifact>
+                                    <excludes>
+                                        <exclude>META-INF/*.SF</exclude>
+                                        <exclude>META-INF/*.DSA</exclude>
+                                        <exclude>META-INF/*.RSA</exclude>
+                                    </excludes>
+                                </filter>
+                            </filters>
+                            <transformers>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.ManifestResourceTransformer">
+                                    <mainClass>com.sinobest.spark.sql.hive.HiveFromSpark</mainClass>
+                                </transformer>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                    <resource>META-INF/spring.handlers</resource>
+                                </transformer>
+                                <transformer
+                                        implementation="org.apache.maven.plugins.shade.resource.AppendingTransformer">
+                                    <resource>META-INF/spring.schemas</resource>
+                                </transformer>
+                            </transformers>
+                        </configuration>
+                    </execution>
+                </executions>
+            </plugin>
+
+        </plugins>
+
+    </build>
+    
+</project>

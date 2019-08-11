@@ -1,0 +1,11 @@
+<component name="libraryTable">
+  <library name="spark-1.6.0-yarn-shuffle">
+    <CLASSES>
+      <root url="jar://E:/spark1.6-lib/lib/spark-1.6.0-yarn-shuffle.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES>
+      <root url="jar://E:/spark1.6-lib/lib/spark-1.6.0-yarn-shuffle.jar!/" />
+    </SOURCES>
+  </library>
+</component>
