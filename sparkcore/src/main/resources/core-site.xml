@@ -110,7 +110,7 @@
     <name>hadoop.security.instrumentation.requires.admin</name>
     <value>false</value>
   </property>
-  <!--<property>
+<!--  <property>
     <name>net.topology.script.file.name</name>
     <value>/etc/hadoop/conf.cloudera.yarn/topology.py</value>
   </property>-->

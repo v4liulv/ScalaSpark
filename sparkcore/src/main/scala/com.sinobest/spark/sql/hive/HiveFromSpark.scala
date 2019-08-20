@@ -20,8 +20,6 @@ package com.sinobest.spark.sql.hive
 
 //import com.google.common.io.{ByteStreams, Files}
 
-import java.io.File
-
 import org.apache.spark.{SparkConf, SparkContext}
 import org.apache.spark.sql._
 import org.apache.spark.sql.hive.HiveContext
@@ -36,23 +34,23 @@ object HiveFromSpark {
   //ByteStreams.copy(kv1Stream, Files.newOutputStreamSupplier(kv1File))
 
   def main(args: Array[String]) {
-    System.setProperty("HADOOP_USER_NAME", "root")
-    System.setProperty("user.name", "root")
+    //System.setProperty("HADOOP_USER_NAME", "root")
+    //System.setProperty("user.name", "root")
     //System.setProperty("SPARK_YARN_MODE", "true")
-    System.setProperty("HADOOP_CONF_DIR", "file:///etc/hadoop/conf")
-    System.setProperty("YARN_CONF_DIR", "file:///etc/hadoop/conf")
-    System.setProperty("SPARK_JAR", "hdfs://hadoop01:8020/user/root/jars/spark-assembly-1.6.0-cdh5.7.1-hadoop2.6.0-cdh5.7.1.jar")
-    System.setProperty("SPARK_YARN_APP_JAR", "file:///home/hadoop/apps/scala-spark/scala-spark.jar")
+    //System.setProperty("HADOOP_CONF_DIR", "file:///etc/hadoop/conf")
+    //System.setProperty("YARN_CONF_DIR", "file:///etc/hadoop/conf")
+    //System.setProperty("SPARK_JAR", "hdfs://hadoop01:8020/user/root/jars/spark-assembly-1.6.0-cdh5.7.1-hadoop2.6.0-cdh5.7.1.jar")
+    //System.setProperty("SPARK_YARN_APP_JAR", "file:///home/hadoop/apps/scala-spark/scala-spark.jar")
 
     //conf.set("mapred.remote.os", "Linux")
     //conf.set("mapreduce.app-submission.cross-platform", "true")
 
     val sparkConf = new SparkConf()
       .setAppName("HiveFromSpark")
-      .setMaster("yarn-client")
-      .set("deploy-mode", "client")
-      .set("spark.yarn.jars", "hdfs://hadoop01:8020/user/root/jars/*")  //集群的jars包,是你自己上传上去的
-      //.setJars(List("file://E:/Workspace/BigData-大数据/Spark-yy/ScalaSpark/target/scala-spark.jar")) //这是sbt打包后的文件
+      .setMaster("spark://hadoop01:7077") //yarn-client
+      .set("deploy-mode", "cluster")
+      //.set("spark.yarn.jars", "hdfs://hadoop01:8020/user/root/jars/spark-yn-sjzl.jar")  //集群的jars包,是你自己上传上去的
+      //.setJars(List("file:///E:/Workspace/BigData-大数据/Spark-yy/ScalaSpark/target/scala-spark.jar")) //这是sbt打包后的文件
       .setJars(List("file:///home/hadoop/apps/scala-spark/scala-spark.jar")) //这是sbt打包后的文件
       //.set("spark.driver.host", "192.168.1.104") //设置你自己的ip
 
@@ -63,7 +61,7 @@ object HiveFromSpark {
     // HiveContext. When not configured by the hive-site.xml, the context automatically
     // creates metastore_db and warehouse in the current directory.
     val hiveContext = new HiveContext(sc)
-    hiveContext.setConf("hadoop01", "9083")
+    //hiveContext.setConf("hadoop01", "9083")
     import hiveContext.implicits._
     import hiveContext.sql
 
@@ -72,7 +70,7 @@ object HiveFromSpark {
 
     // Queries are expressed in HiveQL
     println("Result of 'SELECT *': ")
-    sql("SELECT * FROM default.src").collect().foreach(println)
+    sql("SELECT * FROM default.src LIMIT 10").collect().foreach(println)
 
     // Aggregation queries are also supported.
     val count = sql("SELECT COUNT(*) FROM default.src").collect().head.getLong(0)
@@ -93,9 +91,8 @@ object HiveFromSpark {
 
     // Queries can then join RDD data with data stored in Hive.
     println("Result of SELECT *:")
-    sql("SELECT * FROM default.records r JOIN default.src s ON r.key = s.key").collect().foreach(println)
+    sql("SELECT * FROM records r JOIN default.src s ON r.key = s.key").collect().foreach(println)
 
     sc.stop()
   }
 }
-// scalastyle:on println

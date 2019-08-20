@@ -7,6 +7,10 @@
     <value>file:///home/dfs/nn</value>
   </property>
   <property>
+    <name>dfs.namenode.servicerpc-address</name>
+    <value>hadoop01:8022</value>
+  </property>
+  <property>
     <name>dfs.https.address</name>
     <value>hadoop01:50470</value>
   </property>
@@ -16,7 +20,7 @@
   </property>
   <property>
     <name>dfs.namenode.http-address</name>
-    <value>hadoop01:50010</value>
+    <value>hadoop01:50070</value>
   </property>
   <property>
     <name>dfs.replication</name>
@@ -24,15 +28,15 @@
   </property>
   <property>
     <name>dfs.blocksize</name>
-    <value>67108864</value>
+    <value>134217728</value>
   </property>
   <property>
     <name>dfs.client.use.datanode.hostname</name>
-    <value>true</value>
+    <value>false</value>
   </property>
   <property>
     <name>fs.permissions.umask-mode</name>
-    <value>000</value>
+    <value>022</value>
   </property>
   <property>
     <name>dfs.namenode.acls.enabled</name>
@@ -48,7 +52,7 @@
   </property>
   <property>
     <name>dfs.domain.socket.path</name>
-    <value>/home/run/hdfs-sockets/dn</value>
+    <value>/var/run/hdfs-sockets/dn</value>
   </property>
   <property>
     <name>dfs.client.read.shortcircuit.skip.checksum</name>
@@ -61,5 +65,10 @@
   <property>
     <name>dfs.datanode.hdfs-blocks-metadata.enabled</name>
     <value>true</value>
+  </property>
+
+  <property>
+    <name>fs.hdfs.impl</name>
+    <value>org.apache.hadoop.hdfs.DistributedFileSystem</value>
   </property>
 </configuration>

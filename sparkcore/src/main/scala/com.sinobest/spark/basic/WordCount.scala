@@ -32,9 +32,9 @@ object WordCount {
       * 数据会根据RDD划分为一系列的Partitions,分配到每个的Partition的数据属于一个Task的处理范畴
       * */
      //本地模式
-     //val lines = sc.textFile("E://E-文档//D-大数据//Spark//源码//spark1.6.0//spark-1.6.0-bin-hadoop2.6//CHANGES.txt", 1) //读取本地文件，并设置为Partition
+     val lines = sc.textFile("file:///E://E-文档/D-大数据/Spark/源码/spark1.6.0/spark-1.6.0-bin-hadoop2.6/CHANGES.txt", 1) //读取本地文件，并设置为Partition
     /** 集群 通过参数进行传递HDFS路径，如果没有此路径就默认路径hdfs://hadoop04.com.cn:8020/tmp/CHANGES.txt **/
-    val lines =   if (args != null && args.length == 1 ) sc.textFile(args(0))  else  sc.textFile("hdfs://hadoop01:8020/tmp/CHANGES.txt")
+    //val lines =   if (args != null && args.length == 1 ) sc.textFile(args(0))  else  sc.textFile("hdfs://hadoop01:8020/tmp/CHANGES.txt")
 
     //对初始的RDD
     /**第一步拆分每个单词 **/
