@@ -42,3 +42,4 @@ out/
 
 # Compiled other
 .externalToolBuilders/
+metastore_db/
