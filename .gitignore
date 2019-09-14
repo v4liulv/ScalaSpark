@@ -25,19 +25,20 @@ hs_err_pid*
 # Compiled idea file
 .idea/*
 *.idea\*
+*.iml
 
 # Compiled svn file
 .svn/*
 
-# Compiled svn file
-.settings/*
+# Eclipse #
+.settings/
+.metadata/
+.classpath
 .project
 
 # Compiled out file
 target/
 out/
-metastore_db/
 
 # Compiled other
 .externalToolBuilders/
-*.iml
