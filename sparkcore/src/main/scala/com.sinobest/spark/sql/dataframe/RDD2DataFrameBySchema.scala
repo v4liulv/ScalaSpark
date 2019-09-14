@@ -1,5 +1,6 @@
 package com.sinobest.spark.sql.dataframe
 
+import com.sinobest.spark.SparkInit
 import org.apache.spark.sql.{Row, SQLContext}
 import org.apache.spark.sql.types.{StringType, StructField, StructType}
 import org.apache.spark.{SparkConf, SparkContext}
@@ -20,12 +21,10 @@ object RDD2DataFrameBySchema {
 
   def main(args: Array[String]): Unit = {
 
-    val conf = new SparkConf().setMaster("local").setAppName("RDD2DataFrameBySchema")
-    val sc = new SparkContext(conf)
-    val sqlContext = new SQLContext(sc)
+    val spark = SparkInit.sparkInitLocal("RDD2DataFrameBySchema")
 
     // MapPartitionsRDD
-    val persionRDD =  sc.textFile("E://persions.txt")
+    val persionRDD =  spark.sparkContext.textFile("E://persions.txt")
     val schemaString = "id name age"
 
     // Generate the schema based on the string of schema 基于schema字符串（schemaString）生成schema
@@ -37,14 +36,14 @@ object RDD2DataFrameBySchema {
       Row(attributes(0).trim(), attributes(1), attributes(2).trim()))
 
     //Apply the schema to the RDD(person) 根据Row相关的MapPartitionsRDD和shema创建DataFrame
-    val personDF = sqlContext.createDataFrame(rowRDD, schema)
+    val personDF = spark.createDataFrame(rowRDD, schema)
 
     //根据DataFrame创建
-    personDF.registerTempTable("person")
-    val results = sqlContext.sql("select * from person")
+    personDF.createOrReplaceTempView("person")
+    val results = spark.sql("select * from person")
 
     //打印出全部的查询结果
-    //results
+    results.show()
 
     //读取查询结果中的某一列的全部值，例：name 第二列的值
     //results.map(attributes => "Name: " + attributes(1))

@@ -7,62 +7,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="4c01dd60-c6cf-4c2f-840e-3447df9401cc" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/ODS_CRJ_CRJJL.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/people.json" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/test.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/PublicUtil.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SimpleApp.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/SjzljcGz.java" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/SparkSQLExample.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlSqlFromSpark.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlTestTable.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SubmitScalaJobToSpark.scala" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SubmitScalaJobToYarn.scala" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/dependency-reduced-pom.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/__cloudera_generation__" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/__cloudera_metadata__" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/classpath.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/hive-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/spark-defaults.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/spark-env.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/ssl-client.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/topology.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/topology.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SubmitScalaJobToSpark.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SubmitScalaJobToYarn.scala" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/__cloudera_generation__" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/__cloudera_metadata__" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/classpath.txt" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/hive-site.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spark-defaults.conf" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/spark-env.sh" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/ssl-client.xml" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/topology.map" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/target/classes/topology.py" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.gitignore" afterPath="$PROJECT_DIR$/.gitignore" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/pom.xml" afterPath="$PROJECT_DIR$/pom.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/core-site.xml" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/core-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/hadoop-env.sh" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/hadoop-env.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/hdfs-site.xml" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/hdfs-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/mapred-site.xml" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/mapred-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/resources/yarn-site.xml" afterPath="$PROJECT_DIR$/sparkcore/src/main/resources/yarn-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCount.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCount.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveFromSpark.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveFromSpark.scala" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/core-site.xml" afterPath="$PROJECT_DIR$/target/classes/core-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hadoop-env.sh" afterPath="$PROJECT_DIR$/target/classes/hadoop-env.sh" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/hdfs-site.xml" afterPath="$PROJECT_DIR$/target/classes/hdfs-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/mapred-site.xml" afterPath="$PROJECT_DIR$/target/classes/mapred-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/classes/yarn-site.xml" afterPath="$PROJECT_DIR$/target/classes/yarn-site.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/target/maven-archiver/pom.properties" afterPath="$PROJECT_DIR$/target/maven-archiver/pom.properties" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/ArrayOps.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/ArrayOps.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/ControlStructures.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/ControlStructures.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/HelloScala.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/HelloScala.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/OOPDemo.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/OOPDemo.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/basics/DataFrameJFormJsonFile.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/DataFrameJFormJsonFile.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/basics/DataFrameOps.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/DataFrameOps.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/basics/RDD2DataFrameByReflection.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameByReflection.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/basics/RDD2DataFrameBySchema.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala" />
-      <change type="MOVED" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/basics/RDD2DataFrameSchemaMerging.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameSchemaMerging.scala" />
+      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/map/ScalaMap.scala" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala" afterPath="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala" />
     </list>
     <ignored path="ScalaSpark.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -94,82 +40,7 @@
     <favorites_list name="ScalaSpark" />
   </component>
   <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="DataFrameJFormJsonFile.scala" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/DataFrameJFormJsonFile.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-              <folding>
-                <element signature="e#742#758#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="RDD2DataFrameByReflection.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameByReflection.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1204">
-              <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="DataFrameOps.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/DataFrameOps.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="469">
-              <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SjzlSqlFromSpark.scala" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlSqlFromSpark.scala">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="112">
-              <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-              <folding>
-                <element signature="e#37#63#0" expanded="true" />
-                <element signature="e#663#687#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="SjzljcGz.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/SjzljcGz.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="192">
-              <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="72" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="pom.xml" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider editor-type-id="MavenHelperPluginDependencyAnalyzer">
-            <state />
-          </provider>
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="462">
-              <caret line="22" column="26" lean-forward="false" selection-start-line="22" selection-start-column="26" selection-end-line="22" selection-end-column="26" />
-              <folding>
-                <element signature="n#plugin#0;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#plugin#1;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-                <element signature="n#plugin#2;n#plugins#0;n#build#0;n#project#0;n#!!top" expanded="false" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300" />
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -219,9 +90,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/sparksql/src/resouce/core-site.xml" />
-        <option value="$PROJECT_DIR$/sparkcore/src/spark/com/sinobest/spark/basices/WordCount.scala" />
-        <option value="$PROJECT_DIR$/sparksql/bin/start.sh" />
         <option value="$PROJECT_DIR$/sparksql/src/resouce/yarn-site.xml" />
         <option value="$PROJECT_DIR$/sparksql/src/main/com/sinobest/spark/sql/hive/HiveFromSpark.scala" />
         <option value="$PROJECT_DIR$/sparksql/src/main/resources/core-site.xml" />
@@ -243,7 +111,6 @@
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/ControlStructures.scala" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/HelloScala.scala" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/OOPDemo.scala" />
-        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCount.scala" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SimpleApp.java" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/resources/core-site.xml" />
@@ -251,8 +118,6 @@
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SimpleApp.scala" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SimpleApp.java" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SimpleApp.scala" />
-        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveFromSpark.scala" />
-        <option value="$PROJECT_DIR$/sparkcore/src/main/resources/hdfs-site.xml" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SubmitScalaJobToSpark.scala" />
         <option value="E:/E-文档/D-大数据/Spark/spark2.4.0/lib/kryo-shaded-4.0.2.jar!/com/esotericsoftware/kryo/serializers/ClosureSerializer.class" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SubmitScalaJobToYarn.scala" />
@@ -270,6 +135,12 @@
         <option value="$PROJECT_DIR$/pom.xml" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/DataFrameJFormJsonFile.scala" />
         <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameByReflection.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/map/ScalaMap.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveFromSpark.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/actor/basics/HelloActor.scala" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/resources/hdfs-site.xml" />
+        <option value="$PROJECT_DIR$/sparkcore/src/main/resources/log4j.properties" />
       </list>
     </option>
   </component>
@@ -341,6 +212,126 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
+              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
+              <item name="scala" type="462c0819:PsiDirectoryNode" />
+              <item name="actor" type="462c0819:PsiDirectoryNode" />
+              <item name="basics" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
+              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
+              <item name="org" type="462c0819:PsiDirectoryNode" />
+              <item name="apache" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+        <option name="show-excluded-files" value="false" />
+      </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="PackagesPane">
         <subPane>
           <expand>
@@ -402,184 +393,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-              <item name="dataframe" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="ScalaSpark" type="462c0819:PsiDirectoryNode" />
-              <item name="sparkcore" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="scala" type="462c0819:PsiDirectoryNode" />
-              <item name="com.sinobest" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-              <item name="hive" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-core_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-core_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-sql_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-sql_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-sql_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-sql_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-sql_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-sql_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-sql_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-sql_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-sql_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="ScalaSpark" type="b2602c69:ProjectViewProjectNode" />
-              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
-              <item name="Maven: org.apache.spark:spark-sql_2.11:2.1.0" type="70bed36:NamedLibraryElementNode" />
-              <item name="spark-sql_2.11-2.1.0.jar" type="462c0819:PsiDirectoryNode" />
-              <item name="org" type="462c0819:PsiDirectoryNode" />
-              <item name="apache" type="462c0819:PsiDirectoryNode" />
-              <item name="spark" type="462c0819:PsiDirectoryNode" />
-              <item name="sql" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-excluded-files" value="false" />
-      </pane>
-      <pane id="Scratches" />
-      <pane id="Scope" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -631,7 +444,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.SjzlSqlFromSpark">
+  <component name="RunManager" selected="Application.ScalaMap">
     <configuration name="DataFrameJFormJsonFile" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
@@ -651,14 +464,14 @@
       <module name="ScalaSpark" />
       <envs />
     </configuration>
-    <configuration name="RDD2DataFrameByReflection" type="Application" factoryName="Application" temporary="true">
+    <configuration name="ScalaMap" type="Application" factoryName="Application" temporary="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
         <pattern>
-          <option name="PATTERN" value="com.sinobest.spark.sql.dataframe.*" />
+          <option name="PATTERN" value="com.sinobest.scala.map.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="MAIN_CLASS_NAME" value="com.sinobest.spark.sql.dataframe.RDD2DataFrameByReflection" />
+      <option name="MAIN_CLASS_NAME" value="com.sinobest.scala.map.ScalaMap" />
       <option name="VM_PARAMETERS" value="-Djava.net.preferIPv4Stack=true" />
       <option name="PROGRAM_PARAMETERS" value="" />
       <option name="WORKING_DIRECTORY" value="file://$PROJECT_DIR$" />
@@ -1134,18 +947,18 @@
     </configuration>
     <list size="5">
       <item index="0" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
-      <item index="1" class="java.lang.String" itemvalue="Application.RDD2DataFrameByReflection" />
-      <item index="2" class="java.lang.String" itemvalue="Application.DataFrameJFormJsonFile" />
-      <item index="3" class="java.lang.String" itemvalue="Application.SjzlSqlFromSpark" />
-      <item index="4" class="java.lang.String" itemvalue="Application.SjzlTestTable" />
+      <item index="1" class="java.lang.String" itemvalue="Application.DataFrameJFormJsonFile" />
+      <item index="2" class="java.lang.String" itemvalue="Application.SjzlSqlFromSpark" />
+      <item index="3" class="java.lang.String" itemvalue="Application.SjzlTestTable" />
+      <item index="4" class="java.lang.String" itemvalue="Application.ScalaMap" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="Application.SjzlSqlFromSpark" />
-        <item index="1" class="java.lang.String" itemvalue="Application.SjzlTestTable" />
-        <item index="2" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
-        <item index="3" class="java.lang.String" itemvalue="Application.DataFrameJFormJsonFile" />
-        <item index="4" class="java.lang.String" itemvalue="Application.RDD2DataFrameByReflection" />
+        <item index="0" class="java.lang.String" itemvalue="Application.ScalaMap" />
+        <item index="1" class="java.lang.String" itemvalue="Application.SjzlSqlFromSpark" />
+        <item index="2" class="java.lang.String" itemvalue="Application.SjzlTestTable" />
+        <item index="3" class="java.lang.String" itemvalue="Application.SparkSQLExample" />
+        <item index="4" class="java.lang.String" itemvalue="Application.DataFrameJFormJsonFile" />
       </list>
     </recent_temporary>
   </component>
@@ -1222,7 +1035,6 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-9" y="-9" width="1938" height="1050" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info id="DB Execution Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.50852877" order="15" side_tool="true" content_ui="tabs" />
@@ -1239,14 +1051,13 @@
       <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3988889" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32890365" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="DB Browser" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Java Enterprise" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="14" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="12" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.4914712" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Graph Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3311185" sideWeight="0.5" order="13" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.32745728" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="725" y="71" width="469" height="897" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3349359" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" x="725" y="71" width="469" height="897" />
       <window_info id="Bean Validation" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
       <window_info id="Graph Database Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="11" side_tool="false" content_ui="tabs" />
@@ -1258,6 +1069,7 @@
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3288889" sideWeight="0.49573562" order="10" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
       <window_info id="JRebel remote servers log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="17" side_tool="true" content_ui="tabs" />
@@ -1327,97 +1139,6 @@
     <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SimpleApp.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="35" lean-forward="false" selection-start-line="18" selection-start-column="35" selection-end-line="18" selection-end-column="35" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/E-文档/D-大数据/Spark/spark2.4.0/lib/spark-core_2.11-2.4.0.cloudera1.jar!/org/apache/spark/rdd/PairRDDFunctions.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="6" lean-forward="false" selection-start-line="18" selection-start-column="6" selection-end-line="18" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/E-文档/D-大数据/Spark/spark2.4.0/lib/spark-core_2.11-2.4.0.cloudera1.jar!/org/apache/spark/rdd/RDD.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="75" column="6" lean-forward="false" selection-start-line="75" selection-start-column="6" selection-end-line="75" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveSparkTest.scala" />
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCountLocal.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="547">
-          <caret line="51" column="101" lean-forward="true" selection-start-line="51" selection-start-column="101" selection-end-line="51" selection-end-column="101" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/rdd/RDDBasic.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="19" column="87" lean-forward="false" selection-start-line="19" selection-start-column="87" selection-end-line="19" selection-end-column="87" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/rdd/RDDBasics2.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="294">
-          <caret line="14" column="65" lean-forward="false" selection-start-line="14" selection-start-column="56" selection-end-line="14" selection-end-column="65" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/rdd/RDDRelation.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="903">
-          <caret line="45" column="16" lean-forward="false" selection-start-line="45" selection-start-column="16" selection-end-line="45" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameSchemaMerging.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/SubmitScalaJobToYarn.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="20" column="7" lean-forward="false" selection-start-line="20" selection-start-column="7" selection-end-line="20" selection-end-column="7" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/E-文档/D-大数据/Spark/spark2.4.0/lib/spark-sql_2.11-2.4.0.cloudera1.jar!/org/apache/spark/sql/Column.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="637">
-          <caret line="85" column="49" lean-forward="true" selection-start-line="85" selection-start-column="19" selection-end-line="85" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://E:/E-文档/D-大数据/Spark/spark2.4.0/lib/spark-sql_2.11-2.4.0.cloudera1.jar!/org/apache/spark/sql/Dataset.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="353">
-          <caret line="241" column="6" lean-forward="false" selection-start-line="241" selection-start-column="6" selection-end-line="241" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/submit/HiveSjzlSpark.scala" />
     <entry file="jar://E:/E-文档/D-大数据/Spark/spark2.4.0/lib/spark-sql_2.11-2.4.0.cloudera1.jar!/org/apache/spark/sql/vectorized/ColumnarBatch.class">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="147">
@@ -1450,15 +1171,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="546">
           <caret line="26" column="51" lean-forward="false" selection-start-line="26" selection-start-column="18" selection-end-line="26" selection-end-column="51" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCount.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1113">
-          <caret line="53" column="90" lean-forward="false" selection-start-line="53" selection-start-column="81" selection-end-line="53" selection-end-column="90" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1466,32 +1178,14 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="231">
           <caret line="11" column="16" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="16" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/hive-site.xml" />
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/log4j.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/function/FunTest.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="18" lean-forward="false" selection-start-line="4" selection-start-column="18" selection-end-line="4" selection-end-column="18" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.4.0/spark-sql_2.11-2.4.0-sources.jar!/org/apache/spark/sql/SQLContext.scala">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="853" column="19" lean-forward="false" selection-start-line="853" selection-start-column="19" selection-end-line="853" selection-end-column="30" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1499,7 +1193,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="162">
           <caret line="416" column="23" lean-forward="false" selection-start-line="416" selection-start-column="19" selection-end-line="416" selection-end-column="23" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1507,7 +1200,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="104">
           <caret line="36" column="11" lean-forward="false" selection-start-line="36" selection-start-column="11" selection-end-line="36" selection-end-column="11" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1515,7 +1207,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
           <caret line="3064" column="6" lean-forward="false" selection-start-line="3064" selection-start-column="6" selection-end-line="3064" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1523,7 +1214,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1531,7 +1221,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="192">
           <caret line="254" column="6" lean-forward="false" selection-start-line="254" selection-start-column="6" selection-end-line="254" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1539,7 +1228,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="276">
           <caret line="217" column="20" lean-forward="true" selection-start-line="217" selection-start-column="20" selection-end-line="217" selection-end-column="20" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1547,17 +1235,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="42">
           <caret line="2" column="124" lean-forward="false" selection-start-line="2" selection-start-column="124" selection-end-line="2" selection-end-column="124" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveFromSpark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="581">
-          <caret line="68" column="63" lean-forward="false" selection-start-line="68" selection-start-column="11" selection-end-line="68" selection-end-column="63" />
-          <folding>
-            <element signature="e#3088#3118#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1565,29 +1242,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-266">
           <caret line="44" column="47" lean-forward="false" selection-start-line="44" selection-start-column="42" selection-end-line="44" selection-end-column="49" />
-          <folding>
-            <element signature="e#32#58#0" expanded="true" />
-            <element signature="e#830#859#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlTestTable.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="237">
-          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="40" />
-          <folding>
-            <element signature="e#37#63#0" expanded="true" />
-            <element signature="e#600#624#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/PublicUtil.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="7">
-          <caret line="1" column="0" lean-forward="true" selection-start-line="1" selection-start-column="0" selection-end-line="1" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1595,7 +1249,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="479">
           <caret line="640" column="37" lean-forward="false" selection-start-line="640" selection-start-column="28" selection-end-line="640" selection-end-column="37" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1603,7 +1256,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1611,7 +1263,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="777">
           <caret line="37" column="4" lean-forward="false" selection-start-line="37" selection-start-column="4" selection-end-line="37" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1634,17 +1285,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="881">
           <caret line="59" column="69" lean-forward="false" selection-start-line="59" selection-start-column="69" selection-end-line="59" selection-end-column="69" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/SjzljcGz.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="192">
-          <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="72" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1652,28 +1292,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/SparkInit.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="16" selection-end-line="13" selection-end-column="16" />
-          <folding>
-            <element signature="e#28#68#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlSqlFromSpark.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="112">
-          <caret line="26" column="16" lean-forward="false" selection-start-line="26" selection-start-column="16" selection-end-line="26" selection-end-column="16" />
-          <folding>
-            <element signature="e#37#63#0" expanded="true" />
-            <element signature="e#663#687#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -1681,7 +1299,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1689,23 +1306,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="417">
           <caret line="218" column="6" lean-forward="false" selection-start-line="218" selection-start-column="6" selection-end-line="218" selection-end-column="6" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="395">
-          <caret line="2572" column="42" lean-forward="false" selection-start-line="2572" selection-start-column="19" selection-end-line="2572" selection-end-column="42" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameByReflection.scala">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1204">
-          <caret line="71" column="54" lean-forward="true" selection-start-line="71" selection-start-column="54" selection-end-line="71" selection-end-column="54" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -1713,17 +1313,192 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="469">
           <caret line="24" column="13" lean-forward="false" selection-start-line="24" selection-start-column="13" selection-end-line="24" selection-end-column="13" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/DataFrameJFormJsonFile.scala">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="364">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameByReflection.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-182">
+          <caret line="35" column="99" lean-forward="true" selection-start-line="35" selection-start-column="99" selection-end-line="35" selection-end-column="99" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/test.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlTestTable.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="308">
+          <caret line="18" column="40" lean-forward="false" selection-start-line="18" selection-start-column="26" selection-end-line="18" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/SjzljcGz.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="693">
+          <caret line="43" column="72" lean-forward="false" selection-start-line="43" selection-start-column="60" selection-end-line="43" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/SparkInit.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-35">
+          <caret line="13" column="16" lean-forward="false" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/PublicUtil.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="231">
+          <caret line="11" column="7" lean-forward="false" selection-start-line="11" selection-start-column="7" selection-end-line="11" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/SjzlSqlFromSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="966">
+          <caret line="51" column="21" lean-forward="false" selection-start-line="38" selection-start-column="3" selection-end-line="51" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-sql_2.11/2.1.0/spark-sql_2.11-2.1.0-sources.jar!/org/apache/spark/sql/Dataset.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="290">
+          <caret line="2182" column="45" lean-forward="false" selection-start-line="2182" selection-start-column="38" selection-end-line="2182" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/apache/spark/spark-core_2.11/2.1.0/spark-core_2.11-2.1.0-sources.jar!/org/apache/spark/rdd/PairRDDFunctions.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="330" column="47" lean-forward="true" selection-start-line="330" selection-start-column="47" selection-end-line="330" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/SimpleApp.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="7" lean-forward="false" selection-start-line="12" selection-start-column="7" selection-end-line="12" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCount.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="278">
+          <caret line="43" column="47" lean-forward="true" selection-start-line="43" selection-start-column="47" selection-end-line="43" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/basic/WordCountLocal.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="399">
+          <caret line="19" column="0" lean-forward="false" selection-start-line="19" selection-start-column="0" selection-end-line="19" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/dataframe/RDD2DataFrameBySchema.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="48" column="6" lean-forward="false" selection-start-line="48" selection-start-column="6" selection-end-line="48" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/ControlStructures.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="7" lean-forward="false" selection-start-line="6" selection-start-column="7" selection-end-line="6" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/HelloScala.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="7" lean-forward="false" selection-start-line="7" selection-start-column="7" selection-end-line="7" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/OOPDemo.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="294">
+          <caret line="14" column="6" lean-forward="false" selection-start-line="14" selection-start-column="6" selection-end-line="14" selection-end-column="6" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/map/ScalaMap.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="546">
+          <caret line="26" column="39" lean-forward="false" selection-start-line="26" selection-start-column="39" selection-end-line="26" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/typesystem/TypeSystem.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/function/functionProgramming.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1890">
+          <caret line="90" column="69" lean-forward="false" selection-start-line="90" selection-start-column="3" selection-end-line="90" selection-end-column="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/function/FunTest.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="7" lean-forward="false" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/basices/ArrayOps.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="25" lean-forward="false" selection-start-line="22" selection-start-column="3" selection-end-line="22" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/spark/sql/hive/HiveFromSpark.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="875">
+          <caret line="72" column="65" lean-forward="false" selection-start-line="72" selection-start-column="4" selection-end-line="72" selection-end-column="72" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/scala/com.sinobest/scala/actor/basics/HelloActor.scala">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="17" column="51" lean-forward="true" selection-start-line="17" selection-start-column="51" selection-end-line="17" selection-end-column="51" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/log4j.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="336">
+          <caret line="16" column="0" lean-forward="true" selection-start-line="16" selection-start-column="0" selection-end-line="16" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/sparkcore/src/main/resources/hdfs-site.xml">
+      <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="210">
-          <caret line="19" column="48" lean-forward="true" selection-start-line="19" selection-start-column="48" selection-end-line="19" selection-end-column="48" />
-          <folding>
-            <element signature="e#742#758#0" expanded="true" />
-          </folding>
+          <caret line="10" column="32" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="74" selection-end-column="0" />
+          <folding />
         </state>
       </provider>
     </entry>
