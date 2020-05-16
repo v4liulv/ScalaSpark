@@ -78,6 +78,13 @@
     </repositories>
 
     <dependencies>
+        <dependency>
+            <groupId>junit</groupId>
+            <artifactId>junit</artifactId>
+            <version>4.11</version>
+            <scope>test</scope>
+        </dependency>
+
         <!-- 引入对scala SDK的依赖-->
        <dependency>
             <groupId>org.scala-lang</groupId>
@@ -186,7 +193,7 @@
 
     <build>
         <finalName>scala-spark</finalName>
-        <sourceDirectory>sparkcore/src/main/java</sourceDirectory>
+        <sourceDirectory>src/main/scala</sourceDirectory>
        <!-- <testSourceDirectory>sparkcore/src/test/java</testSourceDirectory>-->
 
         <!--maven打包时如何把包下面的非java文件配置文件也包含，通过resources-resource下配置directory和includes实现 -->
