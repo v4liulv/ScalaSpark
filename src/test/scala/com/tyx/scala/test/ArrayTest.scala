@@ -97,6 +97,16 @@ class ArrayTest{
     println(arrayFilter.mkString("  "))
   }
 
+  @Test
+  def strTest(): Unit = {
+    val arr = "/E:/Workspace/BigData/Hadoop/tbds_demo/tbds-compress-demo/data/123/123/access_log.csv,/E:/Workspace/BigData/Hadoop/tbds_demo/tbds-compress-demo/data/access_log-01.csv,/E:/Workspace/BigData/Hadoop/tbds_demo/tbds-compress-demo/data/access_log.csv.lzo".split(",")
+
+    val fst = Seq("_SUCCESS", "_temporary", ".crc", ".gz", ".bz2", ".lzo",".lz4", ".snappy", "_tmp")
+    val result = arr.filter(f => !f.endsWith(fst: *))
+
+    println(result.mkString(","))
+  }
+
 
 
 }
