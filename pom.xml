@@ -23,7 +23,7 @@
         <spark.version>2.1.0</spark.version>
 
         <maven-shade-version>2.3</maven-shade-version>
-        <commons.io.version>2.4</commons.io.version>
+        <commons.io.version>2.7</commons.io.version>
         <commons.lang3.version>3.3.2</commons.lang3.version>
         <guava.version>r03</guava.version>
     </properties>
